@@ -4,3 +4,4 @@ The code sends a request to the API for the weather and conveted the results to 
 
 ## Conclusion:
 This program shows the application of APIs, asynchronous code and environment variables in Node.js. This code does not only apply these concepts but also provides an effective way to extract raw API information for an understandable daily forecast. 
+![Screenshot 2026-01-04 230947](https://github.com/user-attachments/assets/79734ec2-0e4d-4090-9a8b-f856f72096ea)

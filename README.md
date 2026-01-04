@@ -1,5 +1,6 @@
 ## DISCUSSION:
-This is Weather terminal program that give the 5-day weather of Kathmandu. It works by fetching real-time weather data from the internet through the OpenWeatherMap API. The API key is kept in a separate .env file and the code uses dotenv to load it instead of writing it directly. If the API key is not present, it stops the execution by raising an error to avoid executing the program with incorrect or missing keys.//
+This is Weather terminal program that give the 5-day weather of Kathmandu. It works by fetching real-time weather data from the internet through the OpenWeatherMap API. The API key is kept in a separate .env file and the code uses dotenv to load it instead of writing it directly. If the API key is not present, it stops the execution by raising an error to avoid executing the program with incorrect or missing keys.
+
 The code sends a request to the API for the weather and conveted the results to a JSON format and then extracts the required details of weather sucha as the date, temperature and description. Since the API provides data of every 3 hours, the code allows only a single data point to offer a basic daily forecast. There is a proper error handling code to ensure the program does not crash in case of a network or API error.
 
 ## Conclusion:

@@ -1,0 +1,1 @@
+//     setTimeout(()=>console.log(Fruits[i]),2000);
